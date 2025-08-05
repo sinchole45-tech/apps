@@ -2,9 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    appDir: false, // Using pages directory
-  },
   images: {
     domains: ['localhost'],
     formats: ['image/webp', 'image/avif'],
@@ -47,4 +44,3 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-
